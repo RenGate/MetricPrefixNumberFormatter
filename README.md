@@ -1,18 +1,19 @@
 <p align="center">
   <img src="https://github.com/RenGate/MetricPrefixNumberFormatter/raw/master/logo.png" />
+  <img src="https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat">
+  <img src="https://img.shields.io/cocoapods/v/MetricPrefixNumberFormatter.svg?style=flat">
+  <img src="https://img.shields.io/cocoapods/p/MetricPrefixNumberFormatter.svg?style=flat">
+  <img src="https://img.shields.io/cocoapods/l/MetricPrefixNumberFormatter.svg?style=flat">
 </p>
-
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)]
-[![Version](https://img.shields.io/cocoapods/v/MetricPrefixNumberFormatter.svg?style=flat)]
-[![Platform](https://img.shields.io/cocoapods/p/MetricPrefixNumberFormatter.svg?style=flat)]
-[![License](https://img.shields.io/cocoapods/l/MetricPrefixNumberFormatter.svg?style=flat)]
 
 MetricPrefixNumberFormatter is an `NSNumberFormatter` subclass designed to format large and small numbers using the [metric prefixes](https://en.wikipedia.org/wiki/Metric_prefix).
 This is a must have library, if your app displays potentially big numbers like a number of views, likes, etc, or deals with calculations that may potentially involve very small numbers.
 
+```
 1200 -> 1.2 K
 12300000 -> 12.3 M
 0.0017 -> 1.7 m
+```
 
 Main features
 * Supports all metric prefixes: from yotta (10^24) to yocto (10^-24).
@@ -27,13 +28,13 @@ let nf = MetricPrefixNumberFormatter()
 nf.minimumFractionDigits = 2
 nf.stringWithMetricPrefix(from: 1122300)
 ```
-```
+```swift
 // 0.001 -> 1 mA
 let nf = MetricPrefixNumberFormatter()
 nf.unit = "A"
 nf.stringWithMetricPrefix(from: 0.001)
 ```
-```
+```swift
 // 1200 -> 1.2KV
 let nf = MetricPrefixNumberFormatter()
 nf.unit = "V"
