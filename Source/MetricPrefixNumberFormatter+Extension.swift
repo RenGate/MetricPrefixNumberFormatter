@@ -26,51 +26,51 @@
 import Foundation
 
 public extension MetricPrefixNumberFormatter {
-    public func stringWithMetricPrefix(from number: Double) -> String? {
+    func stringWithMetricPrefix(from number: Double) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: Float) -> String? {
+    func stringWithMetricPrefix(from number: Float) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: Int) -> String? {
+    func stringWithMetricPrefix(from number: Int) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: Int64) -> String? {
+    func stringWithMetricPrefix(from number: Int64) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: Int32) -> String? {
+    func stringWithMetricPrefix(from number: Int32) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: Int16) -> String? {
+    func stringWithMetricPrefix(from number: Int16) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: Int8) -> String? {
+    func stringWithMetricPrefix(from number: Int8) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: UInt) -> String? {
+    func stringWithMetricPrefix(from number: UInt) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: UInt64) -> String? {
+    func stringWithMetricPrefix(from number: UInt64) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: UInt32) -> String? {
+    func stringWithMetricPrefix(from number: UInt32) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: UInt16) -> String? {
+    func stringWithMetricPrefix(from number: UInt16) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
     
-    public func stringWithMetricPrefix(from number: UInt8) -> String? {
+    func stringWithMetricPrefix(from number: UInt8) -> String? {
         return stringWithMetricPrefix(from: NSNumber(value: number))
     }
 }

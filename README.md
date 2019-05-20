@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/RenGate/MetricPrefixNumberFormatter/raw/master/logo.png" />
-  <img src="https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat">
+  <img src="https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat">
   <img src="https://img.shields.io/cocoapods/v/MetricPrefixNumberFormatter.svg?style=flat">
   <img src="https://img.shields.io/cocoapods/p/MetricPrefixNumberFormatter.svg?style=flat">
   <img src="https://img.shields.io/cocoapods/l/MetricPrefixNumberFormatter.svg?style=flat">
@@ -10,7 +10,7 @@ MetricPrefixNumberFormatter is an `NSNumberFormatter` subclass designed to forma
 This is a must have library, if your app displays potentially big numbers like a number of views, likes, etc, or deals with calculations that may potentially involve very small numbers.
 
 ```
-1200 -> 1.2 K
+1200 -> 1.2 k
 12300000 -> 12.3 M
 0.0017 -> 1.7 m
 ```

@@ -21,6 +21,23 @@
 		9A5A701F217E1A1100DA5152 /* MetricPrefixNumberFormatter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3E0FA021623CD90055258B /* MetricPrefixNumberFormatter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6382E0E2229312F700DE0410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3E0F9721623CD90055258B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3E0F9F21623CD90055258B;
+			remoteInfo = MetricPrefixNumberFormatter;
+		};
+		6382E0E3229312F700DE0410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3E0F9721623CD90055258B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3E0F9F21623CD90055258B;
+			remoteInfo = MetricPrefixNumberFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9A5A7022217E1A1100DA5152 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -210,13 +227,15 @@
 				TargetAttributes = {
 					3E3E0F9F21623CD90055258B = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					3E3E0FA821623CD90055258B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					9A5A7005217DF23000DA5152 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -301,12 +320,12 @@
 		3E3E0FAC21623CD90055258B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3E3E0F9F21623CD90055258B /* MetricPrefixNumberFormatter */;
-			targetProxy = 3E3E0FAB21623CD90055258B /* PBXContainerItemProxy */;
+			targetProxy = 6382E0E3229312F700DE0410 /* PBXContainerItemProxy */;
 		};
 		9A5A7021217E1A1100DA5152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3E3E0F9F21623CD90055258B /* MetricPrefixNumberFormatter */;
-			targetProxy = 9A5A7020217E1A1100DA5152 /* PBXContainerItemProxy */;
+			targetProxy = 6382E0E2229312F700DE0410 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -471,6 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.metricprefixnumberformatter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -495,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.metricprefixnumberformatter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,6 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.metricprefixnumberformattertests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -545,6 +567,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.metricprefixnumberformattertests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -562,7 +585,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rd.ios-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -581,7 +604,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rd.ios-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

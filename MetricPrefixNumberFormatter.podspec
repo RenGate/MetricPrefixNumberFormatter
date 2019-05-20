@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MetricPrefixNumberFormatter"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "NSNumberFormatter subclass designed to format large and small numbers using the metric prefixes."
   s.homepage     = "https://github.com/RenGate/MetricPrefixNumberFormatter"
   s.license  = 'MIT'
@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source   = { :git => 'https://github.com/RenGate/MetricPrefixNumberFormatter.git', :tag => s.version.to_s }
   s.source_files  = "Source/*.{swift}"
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   s.ios.frameworks = "Foundation"
 end
